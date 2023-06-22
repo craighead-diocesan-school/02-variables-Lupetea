@@ -3,5 +3,8 @@
 // ####################################
 
 function gstCalculator() {
-  alert('The price with GST the price and 15%.')
+ 
+  let Tax=prompt('What is the cost before GST?')
+  let result =Tax * 1.15
+  alert('Your cost with GST is $'+result)
 }
